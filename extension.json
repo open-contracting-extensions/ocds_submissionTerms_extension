@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "Submission terms"
+  },
+  "description": {
+    "en": "Adds a submission terms object to the tender and lot objects, to describe how, when and where the tenderers must submit their bids."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_submissionTerms_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ],
+  "dependencies": [
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json"
+  ],
+  "codelists": [
+    "permission.csv"
+  ]
+}
