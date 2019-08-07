@@ -20,7 +20,7 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
             "electronicCataloguePolicy": "allowed",
             "variantPolicy": "notAllowed",
             "language": ["fr","es"],
-            "bidMinimumValidityPeriod": {
+            "bidValidityPeriod": {
                 "startDate": "2019-09-20",
                 "endDate": "2019-11-20",
                 "maxExtentDate": "2019-12-02",

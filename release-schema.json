@@ -82,8 +82,8 @@
             "type": "string"
           }
         },
-        "bidMinimumValidityPeriod": {
-          "title": "Bid minimum valididity period",
+        "bidValidityPeriod": {
+          "title": "Bid valididity period",
           "description": "The period, from the bid submission deadline, for which bids must remain valid.",
           "$ref": "#/definitions/Period"
         }
