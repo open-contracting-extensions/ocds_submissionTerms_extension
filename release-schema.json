@@ -4,7 +4,7 @@
       "properties": {
         "submissionTerms": {
           "title": "Submission terms",
-          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids.",
+          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids for the procedure.",
           "$ref": "#/definitions/SubmissionTerms"
         }
       }
@@ -13,7 +13,7 @@
       "properties": {
         "submissionTerms": {
           "title": "Submission terms",
-          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids related to the lot.",
+          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids for the lot.",
           "$ref": "#/definitions/SubmissionTerms"
         }
       }
