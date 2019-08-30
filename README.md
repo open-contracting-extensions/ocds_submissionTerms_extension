@@ -14,20 +14,23 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
 ```json
 
 {
-    "tender": {
-        "submissionTerms": {
-            "electronicSubmissionPolicy": "required",
-            "electronicCataloguePolicy": "allowed",
-            "variantPolicy": "notAllowed",
-            "language": ["fr","es"],
-            "bidValidityPeriod": {
-                "startDate": "2019-09-20",
-                "endDate": "2019-11-20",
-                "maxExtentDate": "2019-12-02",
-                "durationInDays": 74
-            }
-        }
+  "tender": {
+    "submissionTerms": {
+      "electronicSubmissionPolicy": "required",
+      "electronicCataloguePolicy": "allowed",
+      "variantPolicy": "notAllowed",
+      "languages": [
+        "fr",
+        "es"
+      ],
+      "bidValidityPeriod": {
+        "startDate": "2019-09-20",
+        "endDate": "2019-11-20",
+        "maxExtentDate": "2019-12-02",
+        "durationInDays": 74
+      }
     }
+  }
 }
 
 ```
