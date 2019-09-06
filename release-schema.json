@@ -86,6 +86,14 @@
           "title": "Bid minimum valididity period",
           "description": "The period, from the bid submission deadline, for which bids must remain valid.",
           "$ref": "#/definitions/Period"
+        },
+        "hasRequiredGuarantees": {
+          "title": "Guarantees required",
+          "description": "Whether or not financial guarantees must be given.",
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     }
