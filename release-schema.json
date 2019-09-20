@@ -87,9 +87,9 @@
           "description": "The period, from the bid submission deadline, for which bids must remain valid.",
           "$ref": "#/definitions/Period"
         },
-        "hasRequiredGuarantees": {
+        "requiresGuarantees": {
           "title": "Guarantees required",
-          "description": "Whether or not financial guarantees must be given.",
+          "description": "Whether or not a financial guarantee is required.",
           "type": [
             "boolean",
             "null"

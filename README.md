@@ -29,7 +29,7 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
         "maxExtentDate": "2019-12-02",
         "durationInDays": 74
       },
-      "hasRequiredGuarantees": true
+      "requiresGuarantees": true
     }
   }
 }
