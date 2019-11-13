@@ -23,9 +23,8 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
         "es"
       ],
       "bidValidityPeriod": {
-        "startDate": "2019-09-20",
-        "endDate": "2019-11-20",
-        "maxExtentDate": "2019-12-02",
+        "startDate": "2019-09-20T00:00:00Z",
+        "endDate": "2019-12-02T23:59:59Z",
         "durationInDays": 74
       },
       "requiresGuarantees": true
