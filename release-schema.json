@@ -79,8 +79,11 @@
             "null"
           ],
           "items": {
-            "type": "string"
-          }
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
         },
         "bidValidityPeriod": {
           "title": "Bid valididity period",
@@ -95,7 +98,8 @@
             "null"
           ]
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
