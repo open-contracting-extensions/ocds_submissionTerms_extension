@@ -19,5 +19,9 @@
   ],
   "codelists": [
     "permission.csv"
-  ]
+  ],
+  "contactPoint": {
+    "name": "Open Contracting Partnership",
+    "email": "data@open-contracting.org"
+  }
 }
