@@ -92,9 +92,9 @@
         },
         "requiresGuarantees": {
           "title": "Guarantees required",
-          "description": "Whether or not a financial guarantee is required.",
+          "description": "Information about the guarantees required from the tenderers.",
           "type": [
-            "boolean",
+            "string",
             "null"
           ]
         }
