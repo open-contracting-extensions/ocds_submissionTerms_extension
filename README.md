@@ -40,7 +40,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-09-28
 
-* Turn `requiresGuarantees` into a string, to comply with the format of `/LEFTI/DEPOSIT_GUARANTEE_REQUIRED`
+* Turn `requiresGuarantees` into a string, to comply with the format of DEPOSIT_GUARANTEE_REQUIRED
 
 ### 2020-04-24
 
