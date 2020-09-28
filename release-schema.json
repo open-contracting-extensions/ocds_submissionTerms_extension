@@ -96,7 +96,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
       },
       "minProperties": 1
