@@ -26,7 +26,7 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
         "endDate": "2019-12-02T23:59:59Z",
         "durationInDays": 74
       },
-      "depositsGuaranteesDetails": "An on demand performance bond which value is a percentage of the total contract price issued by an acceptable entity by the Contracting Entity (e.g. bank or insurance company)."
+      "depositsGuarantees": "An on demand performance bond which value is a percentage of the total contract price issued by an acceptable entity by the Contracting Entity (e.g. bank or insurance company)."
     }
   }
 }
@@ -41,7 +41,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2020-09-29
 
 * Turn `requiresGuarantees` into a string, to comply with the format of DEPOSIT_GUARANTEE_REQUIRED
-* Rename `requiresGuarantees` to `depositsGuaranteesDetails`
+* Rename `requiresGuarantees` to `depositsGuarantees`
 
 ### 2020-04-24
 
