@@ -90,13 +90,14 @@
           "description": "The period, from the bid submission deadline, for which bids must remain valid.",
           "$ref": "#/definitions/Period"
         },
-        "requiresGuarantees": {
-          "title": "Guarantees required",
-          "description": "Whether or not a financial guarantee is required.",
+        "depositsGuarantees": {
+          "title": "Deposits and guarantees",
+          "description": "Information about the deposits or guarantees required from the tenderers.",
           "type": [
-            "boolean",
+            "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
       },
       "minProperties": 1

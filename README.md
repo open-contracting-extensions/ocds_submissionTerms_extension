@@ -26,7 +26,7 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
         "endDate": "2019-12-02T23:59:59Z",
         "durationInDays": 74
       },
-      "requiresGuarantees": true
+      "depositsGuarantees": "An on demand performance bond which value is a percentage of the total contract price issued by an acceptable entity by the Contracting Entity (e.g. bank or insurance company)."
     }
   }
 }
@@ -37,6 +37,12 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-09-29
+
+* Rename `requiresGuarantees` to `depositsGuarantees`
+* Change the `type` of `depositsGuarantees` from a boolean to a string, to match the type of the corresponding XML element in TED XML Schema 2.09.
+
 
 ### 2020-04-24
 
