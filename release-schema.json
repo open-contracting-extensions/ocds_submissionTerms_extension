@@ -90,9 +90,9 @@
           "description": "The period, from the bid submission deadline, for which bids must remain valid.",
           "$ref": "#/definitions/Period"
         },
-        "requiresGuarantees": {
-          "title": "Guarantees required",
-          "description": "Information about the guarantees required from the tenderers.",
+        "depositsGuaranteesDetails": {
+          "title": "Deposits and guarantees details",
+          "description": "Information about the deposits or guarantees required from the tenderers.",
           "type": [
             "string",
             "null"
