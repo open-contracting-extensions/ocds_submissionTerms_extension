@@ -43,7 +43,6 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Rename `requiresGuarantees` to `depositsGuarantees`
 * Change the `type` of `depositsGuarantees` from a boolean to a string, to match the type of the corresponding XML element in TED XML Schema 2.09.
 
-
 ### 2020-04-24
 
 * Add `minProperties`, `minItems` and/or `minLength` properties.
