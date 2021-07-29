@@ -41,7 +41,7 @@
         },
         "variantPolicy": {
           "title": "Variant policy",
-          "description": "Whether tenderers are required, allowed or not allowed to submit tenders which fulfill the buyer's needs differently than as proposed in the procurement documents.",
+          "description": "Whether tenderers are required, allowed or not allowed to submit bids which fulfill the buyer's needs differently than as proposed in the procurement documents.",
           "type": [
             "string",
             "null"
