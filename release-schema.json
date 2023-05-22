@@ -98,6 +98,45 @@
             "null"
           ],
           "minLength": 1
+        },
+        "advancedElectronicSignatureRequired": {
+          "title": "Advanced electronic signature required",
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether an advanced or qualified electronic signature or seal (as defined in European Parliament and Council Regulation (EU) No 910/2014) is required."
+        },
+        "multipleBidsAllowed": {
+          "title": "Multiple bids allowed",
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether tenderers can submit more than one bid."
+        },
+        "nonElectronicRationale": {
+          "title": "Non-electronic submission rationale",
+          "description": "The rationale for electronic submission not being possible.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "subcontractingClauses": {
+          "title": "Subcontracting clauses",
+          "description": "The information about subcontracting that must be indicated in the tender.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
         }
       },
       "minProperties": 1

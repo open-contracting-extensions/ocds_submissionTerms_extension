@@ -6,7 +6,7 @@ Adds a submission terms object to the tender and lot objects, to describe how, w
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-102 (Submission Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/), although not all the fields have been implemented yet. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to the following [eForms BG-102 (Submission Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
 
 ## Example
 
@@ -14,9 +14,12 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
 {
   "tender": {
     "submissionTerms": {
-      "electronicSubmissionPolicy": "required",
-      "electronicCataloguePolicy": "allowed",
+      "electronicSubmissionPolicy": "notAllowed",
+      "nonElectronicRationale": "Inclusion of a physical model",
+      "advancedElectronicSignatureRequired": false,
+      "electronicCataloguePolicy": "notAllowed",
       "variantPolicy": "notAllowed",
+      "multipleBidsAllowed": true,
       "languages": [
         "fr",
         "es"
@@ -26,7 +29,10 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
         "endDate": "2019-12-02T23:59:59Z",
         "durationInDays": 74
       },
-      "depositsGuarantees": "An on demand performance bond which value is a percentage of the total contract price issued by an acceptable entity by the Contracting Entity (e.g. bank or insurance company)."
+      "depositsGuarantees": "An on demand performance bond which value is a percentage of the total contract price issued by an acceptable entity by the Contracting Entity (e.g. bank or insurance company).",
+      "subcontractingClauses": [
+        "subc-oblig"
+      ]
     }
   }
 }
@@ -37,6 +43,14 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2023-05-22
+
+* Add fields for eForms:
+  * `SubmissionTerms.advancedElectronicSignatureRequired`
+  * `SubmissionTerms.multipleBidsAllowed`
+  * `SubmissionTerms.nonElectronicRationale`
+  * `SubmissionTerms.subcontractingClauses`
 
 ### 2020-09-29
 
