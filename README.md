@@ -38,6 +38,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-06-07
+
+* Define "electronic catalog" for the `electronicCataloguePolicy` field.
+
 ### 2020-09-29
 
 * Rename `requiresGuarantees` to `depositsGuarantees`

@@ -56,8 +56,8 @@
           ]
         },
         "electronicCataloguePolicy": {
-          "title": "Electronic catalogue policy",
-          "description": "Whether tenderers are required, allowed or not allowed to submit bids as electronic catalogues.",
+          "title": "Electronic catalog policy",
+          "description": "Whether tenderers are required, allowed or not allowed to submit bids as electronic catalogs. An electronic catalog is an electronic format (typically prescribed by the buyer) that participants in the contracting process must follow when exchanging information about technical specifications, evaluation criteria, bids, lots, etc.",
           "type": [
             "string",
             "null"
