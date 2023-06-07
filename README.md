@@ -29,7 +29,7 @@ In the European Union, this extension's fields correspond to the following [eFor
         "endDate": "2019-12-02T23:59:59Z",
         "durationInDays": 74
       },
-      "depositsGuarantees": "An on demand performance bond which value is a percentage of the total contract price issued by an acceptable entity by the Contracting Entity (e.g. bank or insurance company).",
+      "depositsGuarantees": "An on-demand performance bond issued by an entity that the Contracting Entity judges to be acceptable (e.g. a bank or insurance company) and whose value is a percentage of the total contract price.",
       "subcontractingClauses": [
         "subc-oblig"
       ]
