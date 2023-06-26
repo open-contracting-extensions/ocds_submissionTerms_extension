@@ -105,7 +105,7 @@
             "boolean",
             "null"
           ],
-          "description": "Whether an advanced or qualified electronic signature or seal (as defined in European Parliament and Council Regulation (EU) No 910/2014) is required."
+          "description": "Whether an advanced or qualified electronic signature or seal is required."
         },
         "multipleBidsAllowed": {
           "title": "Multiple bids allowed",
@@ -115,9 +115,9 @@
           ],
           "description": "Whether tenderers can submit more than one bid."
         },
-        "nonElectronicRationale": {
+        "nonElectronicSubmissionRationale": {
           "title": "Non-electronic submission rationale",
-          "description": "The rationale for electronic submission not being possible.",
+          "description": "The rationale for electronic submission not being allowed.",
           "type": [
             "string",
             "null"
@@ -126,7 +126,7 @@
         },
         "subcontractingClauses": {
           "title": "Subcontracting clauses",
-          "description": "The information about subcontracting that must be indicated in the tender.",
+          "description": "The information about subcontracting that needs to be provided in the bid.",
           "type": [
             "array",
             "null"
