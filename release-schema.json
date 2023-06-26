@@ -101,19 +101,19 @@
         },
         "advancedElectronicSignatureRequired": {
           "title": "Advanced electronic signature required",
+          "description": "Whether an advanced or qualified electronic signature or seal is needed.",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether an advanced or qualified electronic signature or seal is required."
+          ]
         },
         "multipleBidsAllowed": {
           "title": "Multiple bids allowed",
+          "description": "Whether tenderers can submit more than one bid.",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether tenderers can submit more than one bid."
+          ]
         },
         "nonElectronicSubmissionRationale": {
           "title": "Non-electronic submission rationale",
