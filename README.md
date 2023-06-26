@@ -15,7 +15,7 @@ In the European Union, this extension's fields correspond to the following [eFor
   "tender": {
     "submissionTerms": {
       "electronicSubmissionPolicy": "notAllowed",
-      "nonElectronicRationale": "Inclusion of a physical model",
+      "nonElectronicSubmissionRationale": "Inclusion of a physical model",
       "advancedElectronicSignatureRequired": false,
       "electronicCataloguePolicy": "notAllowed",
       "variantPolicy": "notAllowed",
@@ -49,7 +49,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Add fields for eForms:
   * `SubmissionTerms.advancedElectronicSignatureRequired`
   * `SubmissionTerms.multipleBidsAllowed`
-  * `SubmissionTerms.nonElectronicRationale`
+  * `SubmissionTerms.nonElectronicSubmissionRationale`
   * `SubmissionTerms.subcontractingClauses`
 
 ### 2020-09-29
