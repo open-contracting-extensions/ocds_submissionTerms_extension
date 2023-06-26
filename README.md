@@ -4,7 +4,7 @@ Adds a submission terms object to the tender and lot objects, to describe how, w
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-102 (Submission Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/), although not all the fields have been implemented yet. For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
+In the European Union, this extension's fields correspond to [eForms BG-102 (Submission Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Example
 
@@ -12,9 +12,12 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
 {
   "tender": {
     "submissionTerms": {
-      "electronicSubmissionPolicy": "required",
-      "electronicCataloguePolicy": "allowed",
+      "electronicSubmissionPolicy": "notAllowed",
+      "nonElectronicSubmissionRationale": "Inclusion of a physical model",
+      "advancedElectronicSignatureRequired": false,
+      "electronicCataloguePolicy": "notAllowed",
       "variantPolicy": "notAllowed",
+      "multipleBidsAllowed": true,
       "languages": [
         "fr",
         "es"
@@ -24,7 +27,10 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
         "endDate": "2019-12-02T23:59:59Z",
         "durationInDays": 74
       },
-      "depositsGuarantees": "An on demand performance bond which value is a percentage of the total contract price issued by an acceptable entity by the Contracting Entity (e.g. bank or insurance company)."
+      "depositsGuarantees": "An on-demand performance bond issued by an entity that the Contracting Entity judges to be acceptable (e.g. a bank or insurance company) and whose value is a percentage of the total contract price.",
+      "subcontractingClauses": [
+        "subc-oblig"
+      ]
     }
   }
 }
@@ -39,6 +45,14 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2023-06-07
 
 * Define "electronic catalog" for the `electronicCataloguePolicy` field.
+
+### 2023-05-22
+
+* Add fields for eForms:
+  * `SubmissionTerms.advancedElectronicSignatureRequired`
+  * `SubmissionTerms.multipleBidsAllowed`
+  * `SubmissionTerms.nonElectronicSubmissionRationale`
+  * `SubmissionTerms.subcontractingClauses`
 
 ### 2020-09-29
 
