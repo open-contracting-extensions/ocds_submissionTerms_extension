@@ -30,8 +30,8 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
           "codelist": "permission.csv",
+          "openCodelist": false,
           "enum": [
             "required",
             "allowed",
@@ -46,8 +46,8 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
           "codelist": "permission.csv",
+          "openCodelist": false,
           "enum": [
             "required",
             "allowed",
@@ -62,8 +62,8 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
           "codelist": "permission.csv",
+          "openCodelist": false,
           "enum": [
             "required",
             "allowed",
