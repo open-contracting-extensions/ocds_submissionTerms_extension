@@ -44,6 +44,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-06-07
+
+* Define "electronic catalog" for the `electronicCataloguePolicy` field.
+
 ### 2023-05-22
 
 * Add fields for eForms:
