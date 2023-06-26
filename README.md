@@ -2,8 +2,6 @@
 
 Adds a submission terms object to the tender and lot objects, to describe how, when and where the tenderers must submit their bids.
 
-## Guidance
-
 ## Legal context
 
 In the European Union, this extension's fields correspond to [eForms BG-102 (Submission Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/), although not all the fields have been implemented yet. For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
