@@ -4,7 +4,7 @@ Adds a submission terms object to the tender and lot objects, to describe how, w
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-102 (Submission Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
+In the European Union, this extension's fields correspond to [eForms BG-102 (Submission Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](https://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Example
 
