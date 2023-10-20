@@ -137,6 +137,11 @@
           },
           "uniqueItems": true,
           "minItems": 1
+        },
+        "nonElectronicSubmissionAddress": {
+          "title": "Non-electronic submission address",
+          "description": "The address the which non-electronic bids should be submitted.",
+          "$ref": "#/definitions/Address"
         }
       },
       "minProperties": 1
