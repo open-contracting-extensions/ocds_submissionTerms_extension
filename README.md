@@ -13,7 +13,6 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
   "tender": {
     "submissionTerms": {
       "electronicSubmissionPolicy": "notAllowed",
-      "nonElectronicSubmissionRationale": "Inclusion of a physical model",
       "advancedElectronicSignatureRequired": false,
       "electronicCataloguePolicy": "notAllowed",
       "variantPolicy": "notAllowed",
@@ -31,12 +30,15 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
       "subcontractingClauses": [
         "subc-oblig"
       ],
-      "nonElectronicSubmissionAddress": {
-        "streetAddress": "Town Hall, St Aldate's",
-        "region": "Oxfordshire",
-        "locality": "Oxford",
-        "postalCode": "OX1 1BX",
-        "countryName": "United Kingdom"
+      "nonElectronicSubmission": {
+        "address": {
+          "streetAddress": "Town Hall, St Aldate's",
+          "region": "Oxfordshire",
+          "locality": "Oxford",
+          "postalCode": "OX1 1BX",
+          "countryName": "United Kingdom"
+        },
+        "rationale": "Inclusion of a physical model"
       }
     }
   }
@@ -51,7 +53,8 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-10-20
 
-* Add `nonElectronicSubmissionAddress` field.
+* Add `nonElectronicSubmission` object.
+* Remove nonElectronicSubmissionRationale field.
 
 ### 2023-06-07
 
@@ -62,7 +65,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Add fields for eForms:
   * `SubmissionTerms.advancedElectronicSignatureRequired`
   * `SubmissionTerms.multipleBidsAllowed`
-  * `SubmissionTerms.nonElectronicSubmissionRationale`
+  * SubmissionTerms.nonElectronicSubmissionRationale
   * `SubmissionTerms.subcontractingClauses`
 
 ### 2020-09-29
