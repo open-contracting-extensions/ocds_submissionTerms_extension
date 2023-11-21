@@ -53,8 +53,8 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-10-20
 
-* Add `nonElectronicSubmission` object.
-* Remove nonElectronicSubmissionRationale field.
+* Add `SubmissionTerms.nonElectronicSubmission` field.
+* Remove `SubmissionTerms.nonElectronicSubmissionRationale` field.
 
 ### 2023-06-07
 
@@ -65,7 +65,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 * Add fields for eForms:
   * `SubmissionTerms.advancedElectronicSignatureRequired`
   * `SubmissionTerms.multipleBidsAllowed`
-  * SubmissionTerms.nonElectronicSubmissionRationale
+  * `SubmissionTerms.nonElectronicSubmissionRationale`
   * `SubmissionTerms.subcontractingClauses`
 
 ### 2020-09-29
