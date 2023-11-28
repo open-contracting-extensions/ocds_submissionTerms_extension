@@ -115,15 +115,6 @@
             "null"
           ]
         },
-        "nonElectronicSubmissionRationale": {
-          "title": "Non-electronic submission rationale",
-          "description": "The rationale for electronic submission not being allowed.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
         "subcontractingClauses": {
           "title": "Subcontracting clauses",
           "description": "The information about subcontracting that needs to be provided in the bid.",
@@ -137,6 +128,28 @@
           },
           "uniqueItems": true,
           "minItems": 1
+        },
+        "nonElectronicSubmission": {
+          "title": "Non-electronic submission",
+          "description": "Information about non-electronic submission requirements.",
+          "type": "object",
+          "properties": {
+            "rationale": {
+              "title": "Rationale",
+              "description": "The rationale for electronic submission not being allowed.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "address": {
+              "title": "Address",
+              "description": "The address to which non-electronic bids should be submitted.",
+              "$ref": "#/definitions/Address"
+            }
+          },
+          "minProperties": 1
         }
       },
       "minProperties": 1

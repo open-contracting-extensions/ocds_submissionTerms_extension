@@ -13,7 +13,6 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
   "tender": {
     "submissionTerms": {
       "electronicSubmissionPolicy": "notAllowed",
-      "nonElectronicSubmissionRationale": "Inclusion of a physical model",
       "advancedElectronicSignatureRequired": false,
       "electronicCataloguePolicy": "notAllowed",
       "variantPolicy": "notAllowed",
@@ -30,7 +29,17 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
       "depositsGuarantees": "An on-demand performance bond issued by an entity that the Contracting Entity judges to be acceptable (e.g. a bank or insurance company) and whose value is a percentage of the total contract price.",
       "subcontractingClauses": [
         "subc-oblig"
-      ]
+      ],
+      "nonElectronicSubmission": {
+        "address": {
+          "streetAddress": "Town Hall, St Aldate's",
+          "region": "Oxfordshire",
+          "locality": "Oxford",
+          "postalCode": "OX1 1BX",
+          "countryName": "United Kingdom"
+        },
+        "rationale": "Inclusion of a physical model"
+      }
     }
   }
 }
@@ -41,6 +50,11 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2023-10-20
+
+* Add `SubmissionTerms.nonElectronicSubmission` field.
+* Remove `SubmissionTerms.nonElectronicSubmissionRationale` field.
 
 ### 2023-06-07
 
