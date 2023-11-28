@@ -135,7 +135,7 @@
           "type": "object",
           "properties": {
             "rationale": {
-              "title": "Non-electronic submission rationale",
+              "title": "Rationale",
               "description": "The rationale for electronic submission not being allowed.",
               "type": [
                 "string",
@@ -144,7 +144,7 @@
               "minLength": 1
             },
             "address": {
-              "title": "Non-electronic submission address",
+              "title": "Address",
               "description": "The address to which non-electronic bids should be submitted.",
               "$ref": "#/definitions/Address"
             }
