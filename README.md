@@ -14,7 +14,7 @@ In the European Union, this extension's fields correspond to [eForms BG-102 (Sub
     "submissionTerms": {
       "electronicSubmissionPolicy": "notAllowed",
       "advancedElectronicSignatureRequired": false,
-      "electronicCataloguePolicy": "notAllowed",
+      "electronicCatalogPolicy": "notAllowed",
       "variantPolicy": "notAllowed",
       "multipleBidsAllowed": true,
       "languages": [
@@ -51,6 +51,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2024-01-19
+
+* Rename `electronicCataloguePolicy` to `electronicCatalogPolicy`.
+
 ### 2023-10-20
 
 * Add `SubmissionTerms.nonElectronicSubmission` field.
@@ -58,7 +62,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-06-07
 
-* Define "electronic catalog" for the `electronicCataloguePolicy` field.
+* Define "electronic catalog" for the `electronicCatalogPolicy` field.
 
 ### 2023-05-22
 
