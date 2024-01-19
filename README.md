@@ -74,7 +74,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-09-29
 
-* Rename `requiresGuarantees` to `depositsGuarantees`
+* Rename `requiresGuarantees` to `depositsGuarantees`.
 * Change the `type` of `depositsGuarantees` from a boolean to a string, to match the type of the corresponding XML element in TED XML Schema 2.09.
 
 ### 2020-04-24
