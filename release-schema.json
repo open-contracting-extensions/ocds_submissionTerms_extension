@@ -4,7 +4,7 @@
       "properties": {
         "submissionTerms": {
           "title": "Submission terms",
-          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids for the procedure.",
+          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids or expressions of interest for the procedure.",
           "$ref": "#/definitions/SubmissionTerms"
         }
       }
@@ -13,19 +13,19 @@
       "properties": {
         "submissionTerms": {
           "title": "Submission terms",
-          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids for the lot.",
+          "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids or expressions of interest for the lot.",
           "$ref": "#/definitions/SubmissionTerms"
         }
       }
     },
     "SubmissionTerms": {
       "title": "Submission terms",
-      "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids.",
+      "description": "Information about the submission terms to describe how, when and where the tenderers need to submit their bids or expressions of interest.",
       "type": "object",
       "properties": {
         "electronicSubmissionPolicy": {
           "title": "Electronic submission policy",
-          "description": "Whether tenderers are required, allowed or not allowed to submit bids electronically.",
+          "description": "Whether tenderers are required, allowed or not allowed to submit bids or expressions of interest electronically.",
           "type": [
             "string",
             "null"
@@ -73,7 +73,7 @@
         },
         "languages": {
           "title": "Submission language",
-          "description": "One or more languages in which bids or requests to participate can be submitted, using either two-letter [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or extended [BCP47 language tags](http://www.w3.org/International/articles/language-tags/). The use of lowercase two-letter codes from [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is recommended.",
+          "description": "One or more languages in which bids or expressions of interest can be submitted, using either two-letter [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or extended [BCP47 language tags](http://www.w3.org/International/articles/language-tags/). The use of lowercase two-letter codes from [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is recommended.",
           "type": [
             "array",
             "null"
@@ -145,7 +145,7 @@
             },
             "address": {
               "title": "Address",
-              "description": "The address to which non-electronic bids should be submitted.",
+              "description": "The address to which non-electronic bids or expressions of interest should be submitted.",
               "$ref": "#/definitions/Address"
             }
           },
